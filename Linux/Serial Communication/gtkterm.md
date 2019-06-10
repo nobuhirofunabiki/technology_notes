@@ -22,3 +22,6 @@ $ sudo gpasswd -add ${USER} dialout
 ```
 > Cannot open /dev/ttyS0
 ```
+
+(reference)
+- https://daichiahl.wordpress.com/2016/07/28/ubuntu%E3%81%A7%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E9%80%9A%E4%BF%A1%E3%81%AE%E3%83%86%E3%82%B9%E3%83%88%E3%82%92%E8%A1%8C%E3%81%86/
