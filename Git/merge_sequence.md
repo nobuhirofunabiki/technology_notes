@@ -5,16 +5,16 @@
 @ master 
 $ git pull
 ```
-- cut the target branch from the target branch on the local repository
+- cut the target branch from the master branch on the local repository
 ```
 @ master
 $ git checkout -b feature/<branch_name>
 @ feature/<branch_name>
 ```
-- merge the feature branch to the branch cut from the cut from the target branch
+- merge the feature branch to the branch cut from the master branch
 ```
 @ feature/<branch_name>
-$ git merge master
+$ git merge master 
 ```
 - edit the files and solve the conflicts
 - git add and commit
