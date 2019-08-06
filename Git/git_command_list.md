@@ -12,7 +12,7 @@
   - git fetch
   - git fetch origin
   - git fetch --all
-  - git fetch pp (= git fetch --purge)
+  - git fetch -p (= git fetch --purge)
 
 - git merge
   - git merge FETCH_HEAD
