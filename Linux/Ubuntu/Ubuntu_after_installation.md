@@ -7,7 +7,7 @@
 
 ## Software Installation (from Terminal)
 
-- terninator
+- terminator
   - Chnage the configuration
 ```
 $ sudo apt install terminator
