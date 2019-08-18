@@ -14,6 +14,9 @@
   - git fetch --all
   - git fetch -p (= git fetch --purge)
 
+- git log
+  - git log --oneline
+
 - git merge
   - git merge FETCH_HEAD
 
