@@ -16,6 +16,7 @@
 
 - git log
   - git log --oneline
+  - git log --graph
 
 - git merge
   - git merge FETCH_HEAD
