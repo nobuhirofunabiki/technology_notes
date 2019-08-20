@@ -10,11 +10,11 @@ $ sudo apt install gtkterm
 
 2. Check the joining groups of the user
 ```
-$ group ${USER}
+$ groups ${USER}
 ```
 3. Add a user to `dialout` group
 ```
-$ sudo gpasswd -add ${USER} dialout
+$ sudo gpasswd --add ${USER} dialout
 ```
 4. Log-out and log-in 
 
