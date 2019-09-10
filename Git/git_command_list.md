@@ -17,17 +17,20 @@
 - git log
   - git log --oneline
   - git log --graph
+  - git log -p -3
 
 - git merge
   - git merge FETCH_HEAD
 
 - git stash
+  - git stash -p
   - git stash apply stash@{}
   - git stash clear
   - git stash list
     - git stash list -p
   - git stash pop stash@{}
   - git stash save (= git stash)
+  - git stash show -p stash@{}
 
 - git reset
   - 
