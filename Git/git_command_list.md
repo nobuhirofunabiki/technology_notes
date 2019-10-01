@@ -33,4 +33,4 @@
   - git stash show -p stash@{}
 
 - git reset
-  - 
+  - git reset HEAD filepath

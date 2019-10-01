@@ -16,3 +16,6 @@
         ```
     - `grep -A` : --after-context
     - `grep -B` : --before--context
+
+- `find`
+    - `find . -name <filename>` : Find a file called <filename> in the current and sub-directories.
