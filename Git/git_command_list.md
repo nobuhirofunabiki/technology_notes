@@ -25,7 +25,13 @@
   - git log -p *commit_hash*
 
 - git merge
-  - git merge FETCH_HEAD
+  - git merge FETCHED_HEAD
+
+- git rev-parse
+  - git rev-parse HEAD
+    - Return the name of the current commit hash
+  - git rev-parse --abbrev-ref HEAD
+    - Return the name of the current branch
 
 - git reset
   - git reset HEAD *file_path*
