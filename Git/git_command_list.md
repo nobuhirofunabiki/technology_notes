@@ -41,5 +41,3 @@
   - git stash save (= git stash)
   - git stash show -p stash@{}
 
-- git reset
-  - git reset HEAD filepath
