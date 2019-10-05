@@ -47,3 +47,15 @@
   - git stash save (= git stash)
   - git stash show -p stash@{}
 
+- git tag
+  - git tag
+    - Show the list of the existing tags
+  - git push origin *tag_name*
+    - A new tag needs to be pushed to a remote repository
+  - git tag -a *tag_name* -m *tag_comment* *commit_hash*
+    - example
+      ```
+      @master
+      $ git tag -a v1.0 -m 'First release version' HEAD
+      ```
+  - 
