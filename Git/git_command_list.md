@@ -46,11 +46,15 @@
   - git stash -p
   - git stash apply stash@{}
   - git stash clear
+  - git stash drop stash@{}
   - git stash list
     - git stash list -p
   - git stash pop stash@{}
   - git stash save (= git stash)
+    - git stash save *arbitrary message*
   - git stash show -p stash@{}
+  - others
+    - git diff stash@{}
 
 - git tag
   - git tag
