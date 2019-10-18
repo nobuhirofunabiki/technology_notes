@@ -1,5 +1,7 @@
 # Linux Commands
 
+## General commands
+
 - `touch`
     - Make an empty file
     - example
@@ -19,3 +21,10 @@
 
 - `find`
     - `find . -name <filename>` : Find a file called <filename> in the current and sub-directories.
+
+## System Information commands
+
+- `cat /proc/cpuinfo`
+- `cat /proc/meminfo`
+- `df -h`
+- `export -p | less`
