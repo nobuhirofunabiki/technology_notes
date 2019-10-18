@@ -7,6 +7,11 @@
   - git branch -m *new_branch_name*
   - git branch -m *old_branch_name* *new_branch_name*
 
+- git cherry-pick
+  - git cherry-pick *commit_hash*
+  - git cherry-pick -e (--edit) *commit_hash*
+  - git cherry-pick -n (--no-commit) *commit_hash*
+
 - git diff
   - git diff (= git diff HEAD)
   - git diff --cached
