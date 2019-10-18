@@ -12,6 +12,9 @@
   - git cherry-pick -e (--edit) *commit_hash*
   - git cherry-pick -n (--no-commit) *commit_hash*
 
+- git commit
+  - git commit --amend --author="Nobuhiro Funabiki <nobuhiro.funabiki@jpl.nasa.gov>"
+
 - git diff
   - git diff (= git diff HEAD)
   - git diff --cached
