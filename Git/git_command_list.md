@@ -7,6 +7,10 @@
   - git branch -m *new_branch_name*
   - git branch -m *old_branch_name* *new_branch_name*
 
+- git checkout
+  - git checkout HEAD -- *file_name*
+    - erase the changes on the working tree
+
 - git cherry-pick
   - git cherry-pick *commit_hash*
   - git cherry-pick -e (--edit) *commit_hash*
