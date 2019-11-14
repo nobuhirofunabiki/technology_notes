@@ -22,6 +22,10 @@
 - `find`
     - `find . -name <filename>` : Find a file called <filename> in the current and sub-directories.
 
+-  `dpkg`
+    - `dpkg -l` : Check the version of a installed package
+        - ex) `dpkg -l *boost*`
+
 ## System Information commands
 
 - `cat /proc/cpuinfo`
