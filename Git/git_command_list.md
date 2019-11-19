@@ -10,6 +10,8 @@
 - git checkout
   - git checkout HEAD -- *file_name*
     - erase the changes on the working tree
+  - git checkout -f *branch_name*
+    - You can use this command when you want to back to the original HEAD after you use `git checkout <commit_hash>`
 
 - git cherry-pick
   - git cherry-pick *commit_hash*
