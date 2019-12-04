@@ -37,3 +37,12 @@
 - `cat /proc/meminfo`
 - `df -h`
 - `export -p | less`
+
+## Shutdown Commands
+
+- `shutdown`
+    - `shutdown -h`: Turn off the system
+        - `shutdown -h now`
+        - `shutdown -h +1`: showdonw the system in 1 minute
+    - `shutdown -r`: Reboot the system
+        - `shutdown -r now`
