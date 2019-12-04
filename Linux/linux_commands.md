@@ -8,6 +8,11 @@
         ```
         $ touch CATKIN_IGNORE
         ```
+- `du`
+    - Check the disk usage
+    - `du -h` :`du --human-readable`
+    - `du -d N` :`du --max-depth=N`
+    - (ex) `du -h -d 1`
 
 - `grep`
     - `grep -i` : without distinguishing lower case and upper case
