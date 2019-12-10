@@ -38,6 +38,14 @@
 - `df -h`
 - `export -p | less`
 
+## Apt commands
+
+- `sudo apt update`
+    - This command is used to download package information from all configured sources (resynchronize the package index files from their sources).
+    - The sources are often defined in `/etc/apt/sources.list` file and other files are located in `etc/apt/sources.list.d` directory.
+- `sudo apt upgrade`
+    - Install available upgrades of all packages currently installed on the system from the sources configured via sources.list file.
+
 ## Shutdown Commands
 
 - `shutdown`
@@ -46,3 +54,5 @@
         - `shutdown -h +1`: showdonw the system in 1 minute
     - `shutdown -r`: Reboot the system
         - `shutdown -r now`
+        - You can reboot the system by the following command
+            - `sudo reboot`
