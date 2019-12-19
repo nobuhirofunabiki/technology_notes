@@ -13,7 +13,8 @@ Last update: 2019/11/15
 
 ## tmux
 - How to make the pane large?
-- 
+- ctrl b + ctrl n
+- ctrl b + ctrl x
 
 ## Activation of robots and a base station
 - connect to the robot
@@ -25,8 +26,21 @@ Last update: 2019/11/15
 - husky
 - husky-artifact
 
-
 - timeout 5 rosrun tmux_scripts cleanup.sh
+
+Before running, we should do the fiducial caribration
+
+On the base station,
+- export ROBOT_NAME=husky3 && export OPS_ENV=jpl && launch-fc
+- Just run the fiducial calibration node on the robot
+
+Following things should be activated before running
+1. FiducialCalibrationFromFile
+2. Localizer
+3. ArtifactService
+
+Should do logging just before starting a mission
+Should check Localizer /husky3/resillency_logic
 
 ## Other tips
 
@@ -34,4 +48,4 @@ Last update: 2019/11/15
   - `git commit --amend --author="Nobuhiro Funabiki <nobuhiro.funabiki@jpl.nasa.gov>"`
 - ssd
   - `sudo mount /dev/sdb1 /mnt/ssd`
-  - `sudo mount /mnt/ssd`
+  - `sudo umount /mnt/ssd`
