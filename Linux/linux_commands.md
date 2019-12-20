@@ -2,12 +2,11 @@
 
 ## General commands
 
-- `touch`
-    - Make an empty file
-    - example
-        ```
-        $ touch CATKIN_IGNORE
-        ```
+- `dpkg`
+    - dpkg: Debian Package
+    - `dpkg -l` : Check the version of a installed package
+        - ex) `dpkg -l *boost*`
+
 - `du`
     - Check the disk usage
     - `du -h` :`du --human-readable`
@@ -27,10 +26,22 @@
 - `find`
     - `find . -name <filename>` : Find a file called <filename> in the current and sub-directories.
 
--  `dpkg`
-    - dpkg: Debian Package
-    - `dpkg -l` : Check the version of a installed package
-        - ex) `dpkg -l *boost*`
+- `free`
+    - display the total amount of fre space available along with the amount of memory used and swap memory in the system
+    - examples
+        - `free -m (/-g)`
+        - `free -h`
+
+- `touch`
+    - Make an empty file
+    - example
+        ```
+        $ touch CATKIN_IGNORE
+        ```
+- `watch`
+    - execute a program periodically (every 2 seconds by default), showing output in fullscreen
+    - example
+        - `watch -n 1 free -h`
 
 ## System Information commands
 
@@ -44,6 +55,7 @@
 - `sudo apt update`
     - This command is used to download package information from all configured sources (resynchronize the package index files from their sources).
     - The sources are often defined in `/etc/apt/sources.list` file and other files are located in `etc/apt/sources.list.d` directory.
+- `apt list --upgradable`
 - `sudo apt upgrade`
     - Install available upgrades of all packages currently installed on the system from the sources configured via sources.list file.
 
