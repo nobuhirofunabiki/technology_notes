@@ -1,6 +1,6 @@
 # Linux Commands
 
-## General commands
+## General commands (Pre-installed)
 
 - `dpkg`
     - dpkg: Debian Package
@@ -42,6 +42,16 @@
     - execute a program periodically (every 2 seconds by default), showing output in fullscreen
     - example
         - `watch -n 1 free -h`
+
+## Commands which need to be installed
+
+- `tree`
+    - `$ sudo apt install tree`
+    - a recursie directory listing program that produces a depth-indented listing of files
+    - exmaples
+        - `tree -d`: List directories only
+        - `tree -f`: Print the full path prefix for each file
+        - `tree -d -f | grep hogehoge_*`
 
 ## System Information commands
 
