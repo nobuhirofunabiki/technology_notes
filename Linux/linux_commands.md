@@ -63,6 +63,11 @@
         - `tree -f`: Print the full path prefix for each file
         - `tree -d -f | grep hogehoge_*`
 
+- `xsel`
+    - xsel command gets output in the terminal
+    - example
+        - `pwd | xsel -i`
+
 ## System Information commands
 
 - `cat /proc/cpuinfo`
