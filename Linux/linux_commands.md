@@ -13,6 +13,15 @@
     - `du -d N` :`du --max-depth=N`
     - (ex) `du -h -d 1`
 
+- `find`
+    - `find . -name <filename>` : Find a file called <filename> in the current and sub-directories.
+
+- `free`
+    - display the total amount of fre space available along with the amount of memory used and swap memory in the system
+    - examples
+        - `free -m (/-g)`
+        - `free -h`
+
 - `grep`
     - `grep -i` : without distinguishing lower case and upper case
     - `grep -n` : Display row numbers
@@ -23,14 +32,15 @@
     - `grep -A` : --after-context
     - `grep -B` : --before--context
 
-- `find`
-    - `find . -name <filename>` : Find a file called <filename> in the current and sub-directories.
+- `less`
+    - to read contents of a text file one page per time for the faster access
 
-- `free`
-    - display the total amount of fre space available along with the amount of memory used and swap memory in the system
-    - examples
-        - `free -m (/-g)`
-        - `free -h`
+- `sort`
+    - sort a file, arranging the records in a particular order
+    - `sort -n`: sort a file numerically
+    - `sort -r`: sort a file in a reverse order
+    - example
+        - `du -a / | sort -nr | head -n 10`
 
 - `touch`
     - Make an empty file
@@ -79,3 +89,9 @@
         - `shutdown -r now`
         - You can reboot the system by the following command
             - `sudo reboot`
+
+## Others
+
+- How to empty the trash box?
+    - `$ cd ~/.local/share/Trash/files`
+    - `$ rm -rf *`
