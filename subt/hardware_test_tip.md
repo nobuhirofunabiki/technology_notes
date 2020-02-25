@@ -49,3 +49,7 @@ Should check Localizer /husky3/resillency_logic
 - ssd
   - `sudo mount /dev/sdb1 /mnt/ssd`
   - `sudo umount /mnt/ssd`
+
+```
+$ ROS_MASTER_URI=http://husky2:11311 rviz -d $(rospack find rviz_config)/cfg/ops.rviz
+```

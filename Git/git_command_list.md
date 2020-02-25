@@ -41,6 +41,9 @@
 - git merge
   - git merge FETCHED_HEAD
 
+- git push
+  - git push origin --all
+
 - git rev-parse
   - git rev-parse HEAD
     - Return the name of the current commit hash
